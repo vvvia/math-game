@@ -362,7 +362,7 @@ function App() {
           {/* 排行榜主体区域 */}
           <div className="flex-1 flex flex-col justify-between">
             <div className="space-y-3">
-              {players.map((player, index) => (
+              {players.map((player) => (
                 <div key={player.id} className="relative">
                   <div className="flex items-center gap-2">
                     <div className="flex items-center gap-1">
